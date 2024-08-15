@@ -1,0 +1,33 @@
+.List {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  border-radius: 100px;
+  align-items: center;
+  font-family: "general sans", sans-serif, roboto;
+}
+.ItemDiv {
+  border-bottom: 20px solid #ecedf6;
+}
+
+.ItemDiv:last-child {
+  border-bottom: none;
+}
+.List li span {
+  padding-right: 10px;
+}
+.deletebtn,
+.editbtn {
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + strong {
+  text-decoration: 2px solid black line-through;
+  color: grey;
+}
+.checkbox {
+  transform: scale(1.2);
+  cursor: pointer;
+}

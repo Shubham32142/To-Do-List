@@ -1,0 +1,12 @@
+#App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+#Item {
+  border: 20px solid #ecedf6;
+  width: 700px;
+  max-width: 800px;
+  border-radius: 10px;
+}
